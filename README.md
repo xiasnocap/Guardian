@@ -20,25 +20,26 @@ Private Discord bot for the Discord Coding Community Discord Server
 - Read how to get the User ID [here](#how-to-get-user-id)
 
 ### Commands
+This list assumes that `[p]` is the default prefix.
 
-- `!mod <add|remove|list> <role ID>`
+- `[p]mod <add|remove|list> <role ID>`
 	- Adds, removes the role ID to the list of moderator roles.
 	- If you want to `list` the roles, you do not need the role ID at the end.
 
-- `!mute <user ID> [reason]`
+- `[p]mute <user ID> [reason]`
 	- Permanently mutes the user. Must be unmuted manually.
 
-- `!tempmute <user ID> <duration> [reason]`
+- `[p]tempmute <user ID> <duration> [reason]`
 	- Temporarily mutes the user.
 
-- `!unmute <user ID>`
+- `[p]unmute <user ID>`
 	- Unmutes the user
 
-- `!tempban <user ID> <duration> <reason>`
+- `[p]tempban <user ID> <duration> <reason>`
 	- Temporarily bans the user from the server
 	- Reason is required. If you do not have a reason, you should not be banning them.
 
-- `!unban <user ID>`
+- `[p]unban <user ID>`
 	- Unbans the user from the server.
 
 ### How to get user ID
