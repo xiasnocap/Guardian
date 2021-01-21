@@ -1,4 +1,4 @@
-# Discord Moderation Bot
+# Guardian
 A bot for moderating users on discord
 
 ## Requirements
