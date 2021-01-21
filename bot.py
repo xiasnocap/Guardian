@@ -2,6 +2,7 @@ import os
 
 import discord
 
+from commands.help import HelpCommand
 from commands.ban import TempBanCommand, UnBanCommand
 from commands.mod import ModCommand
 from commands.mute import MuteCommand, TempMuteCommand, UnMuteCommand
@@ -72,6 +73,9 @@ class ModerationBot(discord.Client):
             elif command[0] == self.prefix + "unban":
                 un_ban = UnBanCommand(self)
                 await un_ban.handle(message, command)
+            elif command[0] == self.prefix + "help":
+                help_command = HelpCommand(self)
+                await help_command.handle(message, command)
             else:
                 await message.channel.send(f"**Unknown command:** `{message.content}`")
                 
