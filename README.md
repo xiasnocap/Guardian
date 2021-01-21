@@ -1,5 +1,5 @@
 # Guardian
-Private Discord bot for the Discord Coding Community Discord Server
+Discord Moderation Bot
 
 ## Requirements
 - [**Python**](https://www.python.org/downloads/) *version 3.6+*
