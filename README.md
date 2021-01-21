@@ -5,6 +5,7 @@ Private Discord bot for the Discord Coding Community Discord Server
 - [**Python**](https://www.python.org/downloads/) *version 3.6+*
 - [**discord.py**](https://pypi.org/project/discord.py/) *version 1.3.3*
 
+## Installation
  - Install python and run: `pip3 install -r requirements.txt`
  - Start the bot with: `python3 bot.py`
 
