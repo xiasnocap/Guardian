@@ -162,7 +162,7 @@ class ModerationBot(discord.Client):
         overwrites = {guild.default_role: self.default_permissions}
         if log_channel is None:
             # The log channel doesn't exist so we create it
-            log_channel = await guild.create_text_channel(name="moderation", overwrites=overwrites)
+            log_channel = await guild.create_text_channel(name="mod-log??", overwrites=overwrites)
             await log_channel.send("I created this channel for moderation logs. Please edit the channel permissions to allow what users you want to see this channel.")
             self.storage.settings["guilds"][guild_id]["log_channel_id"] = log_channel.id
             await self.storage.write_settings_file_to_disk()
