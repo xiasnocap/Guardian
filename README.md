@@ -1,5 +1,5 @@
 # Guardian
-A bot for moderating users on discord
+Private Discord bot for the Discord Coding Community Discord Server
 
 ## Requirements
 - [**Python**](https://www.python.org/downloads/) *version 3.6+*
