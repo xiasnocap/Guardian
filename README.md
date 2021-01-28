@@ -1,6 +1,8 @@
 # Guardian
 Discord Moderation Bot
 
+![](https://images-ext-2.discordapp.net/external/RS-OVjj07riILayBrYwv55QRMzGBhEnos3JFpatnZQk/%3Fsize%3D256/https/cdn.discordapp.com/avatars/731661249422557234/1249c09abdfde593dc2c039b49c0bc94.png)
+
 ## Requirements
 - [**Python**](https://www.python.org/downloads/) *version 3.6+*
 - [**discord.py**](https://pypi.org/project/discord.py/) *version 1.3.3*
